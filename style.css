@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(212, 45%, 89%);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.qrWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 525px;
+  width: 320px;
+  background-color: white !important;
+  border-radius: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.qrWrapper > img {
+  margin: 0 auto;
+  padding: 1rem;
+  height: 320px;
+  width: 320px;
+  border-radius: 10%;
+}
+
+.qrWrapper > h2 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0.75rem 0rem;
+}
+
+.qrWrapper > p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: hsl(220, 15%, 55%);
+  font-size: 1rem;
+  padding: 0 1.5rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color: hsl(220, 15%, 55%);
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
